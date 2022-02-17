@@ -42,6 +42,10 @@ namespace StudentDb.Controllers
         { 
             return Json(new {id =1 });
         }
+         public JsonResult Jahongir()
+        { 
+            return Json(new {id =1 });
+        }
 
     }
     
