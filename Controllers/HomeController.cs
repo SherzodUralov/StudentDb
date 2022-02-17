@@ -39,6 +39,11 @@ namespace StudentDb.Controllers
             return View();
         }
 
+        public ViewResult dsdaee()
+        {
+            return View();
+        }
+
     }
     
 }
