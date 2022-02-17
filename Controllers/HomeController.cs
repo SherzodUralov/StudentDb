@@ -18,7 +18,7 @@ namespace StudentDb.Controllers
         //}
 
         public ViewResult Index() 
-        {
+        {    
             HomeDetalisViewModel homeDetalisView1 = new HomeDetalisViewModel()
             {
                 Title = "Studen Index"
