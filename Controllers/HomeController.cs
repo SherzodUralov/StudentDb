@@ -51,7 +51,7 @@ namespace StudentDb.Controllers
         { 
             return Json(new {id =1 });
         }
-         public JsonResult Jahongir()
+         public JsonResult JsonFile()
         { 
             return Json(new {id =1 });
         }
