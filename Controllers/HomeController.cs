@@ -25,14 +25,7 @@ namespace StudentDb.Controllers
             };
             return View(homeDetalisView1);
         }
-        public ViewResult IndexById(int Id)
-        {
-            HomeDetalisViewModel homeDetalisView1 = new HomeDetalisViewModel()
-            {
-                Title = "Studen Index"
-            };
-            return View(homeDetalisView1);
-        }
+       
         public JsonResult Data() 
         {
             return Json(new {id=1,name="Sherzod",lastname="Uralov" });
