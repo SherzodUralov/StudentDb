@@ -38,7 +38,7 @@ namespace StudentDb.Controllers
             return Json(new {id=1,name="Sherzod",lastname="Uralov" });
         }
 
-        public JsonResult Deta()
+        public JsonResult Dete()
         { 
             return Json(new {id =1 });
         }
