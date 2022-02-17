@@ -43,6 +43,11 @@ namespace StudentDb.Controllers
             return null;
         }
 
+        public JsonResult Dete()
+        { 
+            return Json(new {id =1 });
+        }
+
     }
     
 }
