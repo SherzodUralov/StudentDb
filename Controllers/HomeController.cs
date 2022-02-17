@@ -43,7 +43,7 @@ namespace StudentDb.Controllers
             return null;
         }
 
-        public JsonResult Dete()
+        public JsonResult Sherzod()
         { 
             return Json(new {id =1 });
         }
