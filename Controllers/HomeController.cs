@@ -56,7 +56,7 @@ namespace StudentDb.Controllers
             return Json(new {id =1 });
         }
 
-        public ViewResult HOMEEEE() 
+        public ViewResult HOME() 
         {
             return View();
         }
