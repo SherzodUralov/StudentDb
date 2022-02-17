@@ -55,6 +55,10 @@ namespace StudentDb.Controllers
         { 
             return Json(new {id =1 });
         }
+         public JsonResult Jahon()
+        { 
+            return Json(new {id =1 });
+        }
 
     }
     
