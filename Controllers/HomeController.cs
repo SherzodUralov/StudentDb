@@ -34,6 +34,10 @@ namespace StudentDb.Controllers
         {
             return null;
         }
+        public ViewResult dsda()
+        {
+            return View();
+        }
 
     }
     
