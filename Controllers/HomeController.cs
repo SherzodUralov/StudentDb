@@ -25,8 +25,8 @@ namespace StudentDb.Controllers
             };
             return View(homeDetalisView1);
         }
-        public ViewResult IndexById(int Id)
-        {
+        public ViewResult Index2() 
+        {    
             HomeDetalisViewModel homeDetalisView1 = new HomeDetalisViewModel()
             {
                 Title = "Studen Index"
@@ -41,6 +41,19 @@ namespace StudentDb.Controllers
         public async Task<IActionResult> GetAllElementAsync()
         {
             return null;
+        }
+        public ViewResult dsda()
+        {
+            return View();
+        }
+
+        public JsonResult Sherzod()
+        { 
+            return Json(new {id =1 });
+        }
+         public JsonResult Jahongir()
+        { 
+            return Json(new {id =1 });
         }
 
         public ViewResult HOMEEEE() 
