@@ -43,6 +43,11 @@ namespace StudentDb.Controllers
             return null;
         }
 
+        public ViewResult HOMEEEE() 
+        {
+            return View();
+        }
+
     }
     
 }
